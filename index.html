@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micharll</title>
     <style>
       header {
@@ -22,17 +22,7 @@
         gap: 20px;
         overflow: hidden;
       }
-      @media (max-width: 600px) {
-  .container {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 20px;
-    overflow: hidden;
-    gap: 20px;
-    justify-content: center;
-    display: grid;
-  }
-}
-      .container div {
+            .container div {
         background-color: #f1f1f1;
         padding: 5px;
         font-size: 24px;
@@ -43,7 +33,16 @@
         width: 100%;
         object-fit: cover;
       }
-      
+      @media (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    overflow: hidden;
+    gap: 20px;
+    justify-content: center;
+    display: grid;
+  }
+}
     </style>
   </head>
 <body>
