@@ -17,15 +17,16 @@
       .container {
         gap: 20px;
         justify-content: center;
-        display: grid;
-        grid-template-columns: repeat(3, 200px);
+        display: flex;
+        flex-wrap: wrap;
         overflow: hidden;
       }
       .container div {
         background-color: #f1f1f1;
         padding: 5px;
         font-size: 24px;
-        aspect-ratio: 148 / 210;
+        aspect-ratio: 4/1;
+        flex: 1;
 }
       .container div img {
         height: 100%;
