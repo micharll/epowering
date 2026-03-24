@@ -24,7 +24,7 @@
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(3, 200px);
-        
+        overflow: hidden;
       }
       .container div {
         background-color: #f1f1f1;
@@ -32,6 +32,10 @@
         font-size: 24px;
         aspect-ratio: 148 / 210;
 }
+      .container div img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
       
     </style>
@@ -47,7 +51,7 @@
   </header>
   <h2>The Wonderful Works</h2>
   <div class="container">
-    <div>Story 1</div>
+    <div><img src="apple.jfif"></div>
     <div>Story 2</div>
     <div>Story 3</div>
     <div>Story 4</div>
