@@ -22,20 +22,20 @@ header {
         
       }
             .container div {
-        background-color: #f1f1f1;
-        font-size: 24px;
-        aspect-ratio: 148/210;
-        overflow: hidden;
-        padding: 5px;
+                background-color: #f1f1f1;
+                font-size: 24px;
+                aspect-ratio: 148/210;
+                overflow: hidden;
+                padding: 5px;
+        :hover {
+                height: 105%;
+                width: 105%;
+                justify-content: center;
 }
       .container div img {
         height: 100%;
         width: 100%;
         object-fit: cover;
-              :hover {
-        height: 105%;
-        width: 105%;
-        justify-content: center;
-        }
+                      }
       }
       }
