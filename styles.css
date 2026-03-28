@@ -20,12 +20,13 @@ header {
         max-width: calc(3 * 180px + 2 * 20px);
         padding: 10px;
         transition: transform 0.2s ease;
-              :hover {
+      }
+
+        .container:hover {
                 transform: scale(1.05);
         }
         
-      }
-            .container div {
+        .container div {
                 background-color: #f1f1f1;
                 font-size: 24px;
                 aspect-ratio: 148/210;
