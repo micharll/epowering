@@ -20,8 +20,9 @@ header {
         max-width: calc(3 * 180px + 2 * 20px);
         padding: 10px;
         :hover {
-        height: 120%;
-        width: 120%;
+        height: 105%;
+        width: 105%;
+        justify-content: center;
         }
       }
             .container div {
